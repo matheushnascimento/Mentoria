@@ -1,8 +1,23 @@
 @charset "UTF-8";
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --color1: #535971;
+  --color2: #ff5374;
+  --color3: #efefef;
+
+  --title: "Staatliches", sans-serif;
+}
+
+/* body::before {
+  background;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
