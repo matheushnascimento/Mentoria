@@ -14,5 +14,67 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Mentoria</h1>
+    <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    <form id="myForm">
+      <!-- Informações Pessoais -->
+      <fieldset>
+        <div class="field-wrapper">
+          <legend>Informações pessoais</legend>
+
+          <hr />
+
+          <div class="input-wrapper">
+            <label for="name">Nome</label>
+            <input type="text" id="name" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" id="last-name" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="email"
+              >E-mail <span>(digite um email válido)</span></label
+            >
+            <input type="email" id="email" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="password"
+              >Senha<span>(mínimo 6 caracteres)</span></label
+            >
+            <input type="password" id="password" />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="field-wrapper">
+          <legend>Informações do mentor</legend>
+
+          <hr />
+
+          <div class="input-wrapper">
+            <label for="mentor-name"
+              >Nome do seu mentor <span>(só primeiro nome)</span></label
+            >
+            <input type="text" id="mentor-name" />
+          </div>
+
+
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="field-wrapper">
+          <legend>Seus horários Disponíveis</legend>
+
+          <div class="input-wrapper">
+          </div>
+      </fieldset>
+    </form>
+  </body>
 </html>
