@@ -10,8 +10,6 @@
   --color1: #535971;
   --color2: #ff5374;
   --color3: #efefef;
-
-  --title: "Staatliches", sans-serif;
 }
 
 body::before {
@@ -31,4 +29,31 @@ body::before {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Staatliches", sans-serif;
+  color: var(--color3);
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 140px 0 18px 345px;
+}
+
+p {
+  width: 417px;
+
+  color: var(--color3);
+  font-size: 20px;
+
+  margin: 0 0 58px 345px;
+}
+
+form {
+  border-radius: 20px 20px 0px 0px;
+  width: 750px;
+
+  margin: auto;
+
+  background: var(--color3);
 }
