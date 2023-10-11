@@ -54,6 +54,7 @@ form {
   width: 750px;
 
   margin: auto;
+  padding: 64px;
 
   background: var(--color3);
 }

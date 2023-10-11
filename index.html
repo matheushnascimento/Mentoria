@@ -51,6 +51,7 @@
         </div>
       </fieldset>
 
+      <!-- Informações do mentor -->
       <fieldset>
         <div class="field-wrapper">
           <legend>Informações do mentor</legend>
@@ -63,17 +64,39 @@
             >
             <input type="text" id="mentor-name" />
           </div>
-
-
         </div>
       </fieldset>
-
+      
+      <!-- Seus horários Disponíveis -->
       <fieldset>
         <div class="field-wrapper">
           <legend>Seus horários Disponíveis</legend>
+          <hr />
 
           <div class="input-wrapper">
+            <legend>Primeira mentoria</legend>
+            <label for="mentor-date">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" id="mentor-date" />
+
+            <label for="mentor-begin">Das</label>
+            <input type="time" id="mentor-begin" />
+
+            <label for="mentor-end">Das</label>
+            <input type="time" id="mentor-end" />
           </div>
+
+          <div class="input-wrapper">
+            <legend>Segunda mentoria</legend>
+            <label for="mentor-2-date">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" id="mentor-2-date" />
+
+            <label for="mentor-2-begin">Das</label>
+            <input type="time" name="" id="mentor-2-begin" />
+
+            <label for="mentor-2-end">Até</label>
+            <input type="time" id="mentor-2-end" />
+          </div>
+        </div>
       </fieldset>
     </form>
   </body>
