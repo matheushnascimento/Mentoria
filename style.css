@@ -58,3 +58,17 @@ form {
 
   background: var(--color3);
 }
+
+fieldset {
+  border: none;
+}
+
+.field-wrapper legend {
+  color: #535971;
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px; /* 141.667% */
+
+  margin-bottom: 8px;
+}
