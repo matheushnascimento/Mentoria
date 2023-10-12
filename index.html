@@ -25,14 +25,16 @@
 
           <hr />
 
-          <div class="input-wrapper">
-            <label for="name">Nome</label>
-            <input type="text" id="name" />
-          </div>
+          <div class="col-2">
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input type="text" id="name" />
+            </div>
 
-          <div class="input-wrapper">
-            <label for="last-name">Sobrenome</label>
-            <input type="text" id="last-name" />
+            <div class="input-wrapper">
+              <label for="last-name">Sobrenome</label>
+              <input type="text" id="last-name" />
+            </div>
           </div>
 
           <div class="input-wrapper">
@@ -66,35 +68,48 @@
           </div>
         </div>
       </fieldset>
-      
+
       <!-- Seus horários Disponíveis -->
       <fieldset>
         <div class="field-wrapper">
-          <legend>Seus horários Disponíveis</legend>
+          <legend>Seus horários disponíveis</legend>
+
           <hr />
 
-          <div class="input-wrapper">
-            <legend>Primeira mentoria</legend>
-            <label for="mentor-date">Data <span>(DD/MM/AAAA)</span></label>
-            <input type="date" id="mentor-date" />
+          <h2>Primeira Mentoria</h2>
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="mentor-1-date">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" id="mentor-1-date" />
+            </div>
 
-            <label for="mentor-begin">Das</label>
-            <input type="time" id="mentor-begin" />
+            <div class="input-wrapper">
+              <label for="mentor-1-time">Das</label>
+              <input type="time" id="mentor-1-time" />
+            </div>
 
-            <label for="mentor-end">Das</label>
-            <input type="time" id="mentor-end" />
+            <div class="input-wrapper">
+              <label for="mentor-1-time">Até</label>
+              <input type="time" id="mentor-1-time" />
+            </div>
           </div>
 
-          <div class="input-wrapper">
-            <legend>Segunda mentoria</legend>
-            <label for="mentor-2-date">Data <span>(DD/MM/AAAA)</span></label>
-            <input type="date" id="mentor-2-date" />
+          <h2>Segunda Mentoria</h2>
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="mentor-2-date">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" id="mentor-2-date" />
+            </div>
 
-            <label for="mentor-2-begin">Das</label>
-            <input type="time" name="" id="mentor-2-begin" />
+            <div class="input-wrapper">
+              <label for="mentor-2-time">Das</label>
+              <input type="time" id="mentor-2-time" />
+            </div>
 
-            <label for="mentor-2-end">Até</label>
-            <input type="time" id="mentor-2-end" />
+            <div class="input-wrapper">
+              <label for="mentor-2-time">Até</label>
+              <input type="time" id="mentor-2-time" />
+            </div>
           </div>
         </div>
       </fieldset>
